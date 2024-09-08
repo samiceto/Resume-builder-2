@@ -1,0 +1,65 @@
+:root {
+    --main-color:rgb(244, 240, 2);
+}
+
+
+.textwhit{
+    color: white;
+
+}
+
+.logosize{
+    width: 25px;
+    height: 25px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 10px 0px;
+    align-items: center;
+}
+.logobg{
+    background-color: var(--main-color);
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.year{
+    color:var(--main-color);
+    transform: rotate(-90deg);
+    font-weight: bold;
+    font-size: x-large;
+}
+.year-hr{
+    color: var(--main-color);
+}
+
+#inputbar{
+    width: 30px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+.inputbar{
+    width: 30px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+}
+
+
+.year2{
+    /* color:var(--main-color); */
+    transform: rotate(-90deg);
+    font-weight: bold;
+    font-size: x-large;
+}
+.ed-body2{
+    margin: 50px 0px;
+display: flex;
+
+}
+.profile-edit{
+    background: white;
+    border-radius: 100%;
+    padding:5px
+}
