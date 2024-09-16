@@ -21,7 +21,7 @@ body{
     margin: 20px;
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 1000px;
 }
 .contact-container{
     width: 180px;
@@ -38,7 +38,7 @@ body{
 }
 .personalifo{
     width: 250px;
-    height: 800px;
+    height: 1000px;
     background-color: black;
     padding: 20px 25px;
     box-sizing: border-box;
@@ -144,7 +144,7 @@ input[type="file"] {
 
 .profassion{
     width: 375px;
-  height: 800px;
+  height: 1000px;
 }
 .nameinfo{
     background: var(--main-color);
