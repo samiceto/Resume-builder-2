@@ -6,132 +6,196 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
     <link rel="stylesheet" href="media.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
 </head>
 <body>
-    <div class="form">
+    <!-- <div class="form"> -->
+        
         <div class="boxfm">
-            <h1 class="heading-fm">Fill out the information to generat your resum</h1>
+            <h1 class="heading-fm">Build your perfect CV</h1>
             <div class="containerfm">
                 <div class="leftfm">
-                    <div class="leftprofilefm">
-                    <input type="file"id="file-upload"><label for="file-upload" class="custom-file-upload flex"><p class="profilep">upload your profile picture</p>
-                        <img class="profile-edit" src="img/photo-camera.png" alt="">
-                        </label>
+                    <div class="profilecontain">
+                        <div class="inputcontrol">
+                        <div class="img">
+                            <img class="profile" src="/img/marble.jpg" alt="">
+                        </div>
+                    <input type="file"id="file-upload"><label class="prlable" for="file-upload" class="custom-file-upload flex"> <img class="profile-edit" src="img/photo-camera.png" alt=""><p class="profilep">upload your profile picture</p>
+                        </label><div class="error"></div></div>
                     </div>
                         <!-- <div class="contectfm"> -->
-                            <h1>Contect</h1>
-                            <label for="phonefm">Type your phone number</label><br>
-                            <input type="text" id="phonefm" placeholder="your phone number"><br>
-
+                           
+                            <div class="inputcontrol">
+                                <h1>Contect</h1>
+                            <label for="phonefm">Phone</label><br><input type="text" id="phonefm" placeholder="your phone number"><div class="error"></div></div>
+                           
+                            <div class="inputcontrol">
                             <label for="mailfm">Email</label><br>
-                            <input type="text" id="mailfm" placeholder="Email"><br>
+                            <input type="text" id="mailfm" placeholder="Email"><div class="error"></div></div>
 
-                            <label for="locationfm">Home Address</label><br>
-                            <input type="text" id="locationfm" placeholder="Address"><br>
+                            <div class="inputcontrol">
+                            <label for="locationfm">Address</label><br>
+                            <input type="text" id="locationfm" placeholder="Address"><div class="error"></div></div>
 
-                            <label for="wesitefm">Your website</label><br>
-                            <input type="text" id="websitefm" placeholder="website">
+                            <div class="inputcontrol">
+                            <label for="wesitefm">Website</label><br>
+                            <input type="text" id="websitefm" placeholder="website"><div class="error"></div></div>
                         <!-- </div> -->
                         <!-- <div class="educationfm"> -->
                             <h1>Education</h1>
-                            
-                            <label for="year1fb">year</label><br>
-                            <input type="text" id="year1fm" placeholder="year"><br>
-                            <label for="degree1fm">Your degree</label><br>
-                            <input type="text" id="degree1fm" placeholder="your degree1"><br>
+                            <div class="inputcontrol">
+                            <label for="year1fb">Year</label><br>
+                            <input type="text" id="year1fm" placeholder="year"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
+                            <label for="degree1fm">Degree</label><br>
+                            <input type="text" id="degree1fm" placeholder="your degree1"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="degrerdetail1fm">Detail</label><br>
-                            <input type="text" id="degrerdetail1fm" placeholder="Details"><br>
-                            <div class="boxem"></div>
+                            <input type="text" id="degrerdetail1fm" placeholder="Details"><div class="error"></div></div>
+                            
 
-                            <label for="year2fb">year</label><br>
-                            <input type="text" id="year2fm" placeholder="year"><br>
-                            <label for="degree2fm">Your degree</label><br>
-                            <input type="text" id="degree2fm" placeholder="your degree2"><br>
+
+                            <div class="inputcontrol">
+                            <label for="year2fb">Year</label><br>
+                            <input type="text" id="year2fm" placeholder="year"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
+                            <label for="degree2fm">Degree</label><br>
+                            <input type="text" id="degree2fm" placeholder="your degree2"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="degrerdetail2fm">Detail</label><br>
-                            <input type="text" id="degrerdetail2fm" placeholder="Details"><br>
-                            <div class="boxem"></div>
+                            <input type="text" id="degrerdetail2fm" placeholder="Details"><div class="error"></div></div>
+                            
 
-                            <label for="year3fb">year</label><br>
-                            <input type="text" id="year3fm" placeholder="year"><br>
-                            <label for="degree3fm">Your degree</label><br>
-                            <input type="text" id="degree3fm" placeholder="your degree3"><br>
+                            <div class="inputcontrol">
+                            <label for="year3fb">Year</label><br>
+                            <input type="text" id="year3fm" placeholder="year"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
+                            <label for="degree3fm">Degree</label><br>
+                            <input type="text" id="degree3fm" placeholder="your degree3"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="degrerdetail3fm">Detail</label><br>
-                            <input type="text" id="degrerdetail3fm" placeholder="Details"><br>
-                            <div class="boxem"></div>
+                            <input type="text" id="degrerdetail3fm" placeholder="Details"><div class="error"></div></div>
+                            
                         <!-- </div> -->
                         <!-- <div class="skillsfm"> -->
                             <h1>Skills</h1>
+                            <div class="inputcontrol">
                             <label for="skil1fm">Skill 1</label><br>
-                            <input type="text" id="skil1fm" placeholder="Skill 1"><br>
+                            <input type="text" id="skil1fm" placeholder="Skill 1"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
+                            <label for="inputbar">Expert level % --</label>
+                            <input id="inputbar" class="inputbar" placeholder="%"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="skil2fm">Skill 2</label><br>
-                            <input type="text" id="skil2fm" placeholder="Skill 2"><br>
+                            <input type="text" id="skil2fm" placeholder="Skill 2"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
+                            <label for="inputbar2">Expert level % --</label>
+                            <input id="inputbar2" class="inputbar"  placeholder="%"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="skil3fm">Skill 3</label><br>
-                            <input type="text" id="skil3fm" placeholder="Skill 3"><br>
+                            <input type="text" id="skil3fm" placeholder="Skill 3"><div class="error"></div></div>
 
-                            
+                            <div class="inputcontrol">
+                            <label for="inputbar3">Expert level % --</label>
+                            <input id="inputbar3" class="inputbar" placeholder="%"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
                             <label for="skil4fm">Skill 4</label><br>
-                            <input type="text" id="skil4fm" placeholder="Skill 4"><br>
+                            <input type="text" id="skil4fm" placeholder="Skill 4"><div class="error"></div></div>
+
+                            <div class="inputcontrol">
+                            <label for="inputbar4">Expert level % --</label>
+                            <input id="inputbar4" class="inputbar" placeholder="%"><div class="error"></div></div>
                         <!-- </div> -->
 
                 </div>
                 <div class="rightfm">
 
-                    <h1>Name and profassion</h1>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div class="inputcontrol">
+                                <h1>Name and profassion</h1>
                             <label for="namefm">Type your name</label><br>
-                            <input type="text" id="namefm" placeholder="your name"><br>
+                            <input type="text" id="namefm" placeholder="your name"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
                             <label for="profassionfm">Type your profassion</label><br>
-                            <input type="text" id="profassionfm" placeholder="your profassion"><br>
+                            <input type="text" id="profassionfm" placeholder="your profassion"><div class="error"></div></div>
 
 
-                            <h1>PROFESSIONAL PROFILE</h1>
                             
+                            
+                            <div class="inputcontrol">
+                                <h1>PROFESSIONAL PROFILE</h1>
                             <label for="profassion-profilefb">Type your profassion</label><br>
-                            <textarea name="profassion-profilefb" id="profassion-profilefb" placeholder="profassional-profile"></textarea>
+                            <textarea name="profassion-profilefb" id="profassion-profilefb" placeholder="profassional-profile" rows="5"></textarea><div class="error"></div></div>
 
-                            <h1>WORK EXPERIENCE</h1>
+                           
                             
-                            
+                            <div class="inputcontrol">
+                                <h1>WORK EXPERIENCE</h1>
                             <label for="workyearstart1">Year start</label><br>
-                            <input type="text" id="workyearstart1" placeholder="Year start"><br>
+                            <input type="text" id="workyearstart1" placeholder="Year start"><div class="error"></div></div>
                             
+                            <div class="inputcontrol">
                             <label for="workyearend1">Year end</label><br>
-                            <input type="text" id="workyearend1" placeholder="Year end"><br>
+                            <input type="text" id="workyearend1" placeholder="Year end"><div class="error"></div></div>
 
+
+                            <div class="inputcontrol">
                             <label for="work-detialfm1">Type bout your degree</label><br>
-                            <input type="text" id="work-detialfm1" placeholder="Type bout your degree"><br>
+                            <input type="text" id="work-detialfm1" placeholder="Type bout your degree"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
                             <label for="workexperiecefm1">Type your profassion</label><br>
-                            <textarea name="workexperiecefm1" id="workexperiecefm1" placeholder="Type your profassion"></textarea>
-                            <div class="boxem"></div>
+                            <textarea name="workexperiecefm1" id="workexperiecefm1" placeholder="Type your profassion" rows="5"></textarea><div class="error"></div></div>
+                            
 
-
+                            <div class="inputcontrol">
                             <label for="workyearstart2">Year start</label><br>
-                            <input type="text" id="workyearstart2" placeholder="Year start"><br>
+                            <input type="text" id="workyearstart2" placeholder="Year start"><div class="error"></div></div>
                             
+                            <div class="inputcontrol">
                             <label for="workyearend2">Year end</label><br>
-                            <input type="text" id="workyearend2" placeholder="Year end"><br>
+                            <input type="text" id="workyearend2" placeholder="Year end"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
                             <label for="work-detialfm2">Type bout your degree</label><br>
-                            <input type="text" id="work-detialfm2" placeholder="Type bout your degree"><br>
+                            <input type="text" id="work-detialfm2" placeholder="Type bout your degree"><div class="error"></div></div>
 
+                            <div class="inputcontrol">
                             <label for="workexperiecefm2">Type your profassion</label><br>
-                            <textarea name="workexperiecefm2" id="workexperiecefm2" placeholder="Type your profassion"></textarea>
-                            
+                            <textarea name="workexperiecefm2" id="workexperiecefm2" placeholder="Type your profassion" rows="5"></textarea>  <div class="error"></div></div>
                 </div>
             </div>
             
+            
+       
+            <button id="generate-resum" class="buttonDownload" onclick="generate()">Generate Resume</button>
         </div>
-    </div>
-    <button id="generate-resum" onclick="generate()">Generate Resume</button>
-
+    
+   
+ 
     <!-- // tamplate -->
-    <div class="tamplate">
-    <input type="submit" class="submit" name="submit" value="Download Resum" onclick="generatepdf()">
+    <div class="tamplate" id="tp">
     <div class="contaner" id="pdf-resum">
         <div class="personalifo">
 
@@ -145,7 +209,7 @@
 
             <div class="contact-container">
 
-            <div class="contect"><h1 id="contect" class="prsnonalheading textwhit" contenteditable="">CONTECT</h1><img class="userwhite logosize" src="img/userwhite.png" alt=""></div><hr class="textwhit">
+            <div class="contect"><h1 id="contect" class="prsnonalheading textwhit" contenteditable="">CONTACT</h1><img class="userwhite logosize" src="img/userwhite.png" alt=""></div><hr class="textwhit">
 
             <div class="phon flex"><img class="logosize logobg" src="img/phon.png" alt=""><p id="phont" class="textwhit" contenteditable="">+3122313716</p></div>
             <div class="phon flex"><img class="logosize logobg" src="img/mail.png" alt=""><p id="mailt" class="textwhit" contenteditable="">samiullahmalik7474@gmial.com</p></div>
@@ -181,10 +245,10 @@
             </div>
             <hr class="textwhit">
             <div class="skill-body">
-                <div class="skill-row"><div id="skil1" class="skilname textwhit" contenteditable="">photoshop</div><div class="skill-bar"></div><input id="inputbar" type="text" placeholder="%"></div>
-                <div class="skill-row"><div id="skil2" class="skilname textwhit" contenteditable="">html</div><div class="skill-bar2"></div><input id="inputbar2" class="inputbar" type="text" placeholder="%"></div>
-                <div class="skill-row"><div id="skil3" class="skilname textwhit" contenteditable="">css</div><div class="skill-bar3"></div><input id="inputbar3" class="inputbar" type="text" placeholder="%"></div>
-                <div class="skill-row"><div id="skil4" class="skilname textwhit" contenteditable="">typscript</div><div class="skill-bar4"></div><input id="inputbar4" class="inputbar" type="text" placeholder="%"></div>
+                <div class="skill-row"><div id="skil1" class="skilname textwhit" contenteditable="">photoshop</div><div class="skill-bar"></div></div>
+                <div class="skill-row"><div id="skil2" class="skilname textwhit" contenteditable="">html</div><div class="skill-bar2"></div></div>
+                <div class="skill-row"><div id="skil3" class="skilname textwhit" contenteditable="">css</div><div class="skill-bar3"></div></div>
+                <div class="skill-row"><div id="skil4" class="skilname textwhit" contenteditable="">typscript</div><div class="skill-bar4"></div></div>
                 
             </div>
         </div>
@@ -193,6 +257,7 @@
             
         </div>
         <div class="profassion">
+            <div class="fix">
             <div class="nameinfo"><div class="name"><h1 id="namet" contenteditable="">SAMIULLAH MALIK</h1><p id="t" contenteditable="">FULL STACK WEB DEVELOPER</p></div></div>
 
 
@@ -227,6 +292,14 @@
         
     </div>
 </div>
+ <button id="submit2" class="buttonDownload" onclick="CreatePDFfromHTML()">Download</button>
+</div>
+   <!-- </div> -->
+   
+   
+
+
     <script src="index.js"></script>
+    
 </body>
 </html>

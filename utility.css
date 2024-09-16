@@ -9,52 +9,51 @@
 }
 
 .logosize{
-    width: 25px;
-    height: 25px;
+    width: 10px;
+    height:10px;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    margin: 10px 0px;
+    margin: 5px 0px;
     align-items: center;
 }
 .logobg{
     background-color: var(--main-color);
-    padding: 4px;
+    padding: 2px;
     border-radius: 100%;
-    margin-right: 20px;
+    margin-right:10px;
 }
 .year{
     color:var(--main-color);
     transform: rotate(-90deg);
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 .year-hr{
     color: var(--main-color);
 }
 
-#inputbar{
-    width: 30px;
-    background-color: var(--main-color);
-    border-radius: 5px;
-}
 .inputbar{
-    width: 30px;
-    background-color: var(--main-color);
+ 
     border-radius: 5px;
+    width: 30px;
 }
+.inputbar:focus{
+ outline: none;
+}
+
 
 
 .year2{
     /* color:var(--main-color); */
     transform: rotate(-90deg);
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 .ed-body2{
-    margin: 50px 0px;
+    margin:25px 0px;
 display: flex;
 
 }
@@ -63,3 +62,90 @@ display: flex;
     border-radius: 100%;
     padding:5px
 }
+
+
+.buttonDownload {
+    display: inline-block;
+    position: relative;
+    padding: 10px 25px;
+    
+    background-color: var(--main-color);
+    color: rgb(0, 0, 0);
+    
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+    text-indent: 15px;
+    left: 50px;
+    bottom: 10px;
+  }
+  
+  .buttonDownload:hover {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+  }
+  
+  .buttonDownload:before, .buttonDownload:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52%;
+  }
+  
+  
+  .buttonDownload:before {
+    width: 10px;
+    height: 2px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+  }
+  
+  
+  .buttonDownload:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    border-color: transparent;
+    border-top-color: inherit;
+    
+    animation: downloadArrow 2s linear infinite;
+    animation-play-state: paused;
+  }
+  
+  .buttonDownload:hover:before {
+    border-color: var(--main-color);
+  }
+  
+  .buttonDownload:hover:after {
+    border-top-color: var(--main-color);
+    animation-play-state: running;
+  }
+  
+  /* keyframes for the download icon anim */
+  @keyframes downloadArrow {
+    /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+    0% {
+      margin-top: -7px;
+      opacity: 1;
+    }
+    
+    0.001% {
+      margin-top: -15px;
+      opacity: 0;
+    }
+    
+    50% {
+      opacity: 1;
+    }
+    
+    100% {
+      margin-top: 0;
+      opacity: 0;
+    }
+  }

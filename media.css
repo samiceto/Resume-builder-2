@@ -34,9 +34,30 @@
     .phon{
         width: 20px;
     }
+    
+      
+    .boxfm{
+        margin: 0px;
+        padding: 0;
+        background: #000000ef;
+        width: 100vw;
+        
+    }
     .containerfm{
+
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 40vw;
+
+    }
+    .leftfm{
+        margin: 0;
+        padding: 0;
+    }
+    body{
         flex-direction: column;
     }
  
