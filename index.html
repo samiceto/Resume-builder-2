@@ -6,300 +6,76 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="temp2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Matemasie&display=swap" rel="stylesheet"></head>
   
 </head>
 <body>
-    <!-- <div class="form"> -->
-        
-        <div class="boxfm">
-            <h1 class="heading-fm">Build your perfect CV</h1>
-            <div class="containerfm">
-                <div class="leftfm">
-                    <div class="profilecontain">
-                        <div class="inputcontrol">
-                        <div class="img">
-                            <img class="profile" src="/img/marble.jpg" alt="">
-                        </div>
-                    <input type="file"id="file-upload"><label class="prlable" for="file-upload" class="custom-file-upload flex"> <img class="profile-edit" src="img/photo-camera.png" alt=""><p class="profilep">upload your profile picture</p>
-                        </label><div class="error"></div></div>
-                    </div>
-                        <!-- <div class="contectfm"> -->
-                           
-                            <div class="inputcontrol">
-                                <h1>Contect</h1>
-                            <label for="phonefm">Phone</label><br><input type="text" id="phonefm" placeholder="your phone number"><div class="error"></div></div>
-                           
-                            <div class="inputcontrol">
-                            <label for="mailfm">Email</label><br>
-                            <input type="text" id="mailfm" placeholder="Email"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="locationfm">Address</label><br>
-                            <input type="text" id="locationfm" placeholder="Address"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="wesitefm">Website</label><br>
-                            <input type="text" id="websitefm" placeholder="website"><div class="error"></div></div>
-                        <!-- </div> -->
-                        <!-- <div class="educationfm"> -->
-                            <h1>Education</h1>
-                            <div class="inputcontrol">
-                            <label for="year1fb">Year</label><br>
-                            <input type="text" id="year1fm" placeholder="year"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degree1fm">Degree</label><br>
-                            <input type="text" id="degree1fm" placeholder="your degree1"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degrerdetail1fm">Detail</label><br>
-                            <input type="text" id="degrerdetail1fm" placeholder="Details"><div class="error"></div></div>
-                            
-
-
-                            <div class="inputcontrol">
-                            <label for="year2fb">Year</label><br>
-                            <input type="text" id="year2fm" placeholder="year"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degree2fm">Degree</label><br>
-                            <input type="text" id="degree2fm" placeholder="your degree2"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degrerdetail2fm">Detail</label><br>
-                            <input type="text" id="degrerdetail2fm" placeholder="Details"><div class="error"></div></div>
-                            
-
-                            <div class="inputcontrol">
-                            <label for="year3fb">Year</label><br>
-                            <input type="text" id="year3fm" placeholder="year"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degree3fm">Degree</label><br>
-                            <input type="text" id="degree3fm" placeholder="your degree3"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="degrerdetail3fm">Detail</label><br>
-                            <input type="text" id="degrerdetail3fm" placeholder="Details"><div class="error"></div></div>
-                            
-                        <!-- </div> -->
-                        <!-- <div class="skillsfm"> -->
-                            <h1>Skills</h1>
-                            <div class="inputcontrol">
-                            <label for="skil1fm">Skill 1</label><br>
-                            <input type="text" id="skil1fm" placeholder="Skill 1"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="inputbar">Expert level % --</label>
-                            <input id="inputbar" class="inputbar" placeholder="%"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="skil2fm">Skill 2</label><br>
-                            <input type="text" id="skil2fm" placeholder="Skill 2"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="inputbar2">Expert level % --</label>
-                            <input id="inputbar2" class="inputbar"  placeholder="%"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="skil3fm">Skill 3</label><br>
-                            <input type="text" id="skil3fm" placeholder="Skill 3"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="inputbar3">Expert level % --</label>
-                            <input id="inputbar3" class="inputbar" placeholder="%"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="skil4fm">Skill 4</label><br>
-                            <input type="text" id="skil4fm" placeholder="Skill 4"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="inputbar4">Expert level % --</label>
-                            <input id="inputbar4" class="inputbar" placeholder="%"><div class="error"></div></div>
-                        <!-- </div> -->
-
-                </div>
-                <div class="rightfm">
-
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div class="inputcontrol">
-                                <h1>Name and profassion</h1>
-                            <label for="namefm">Type your name</label><br>
-                            <input type="text" id="namefm" placeholder="your name"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="profassionfm">Type your profassion</label><br>
-                            <input type="text" id="profassionfm" placeholder="your profassion"><div class="error"></div></div>
-
-
-                            
-                            
-                            <div class="inputcontrol">
-                                <h1>PROFESSIONAL PROFILE</h1>
-                            <label for="profassion-profilefb">Type your profassion</label><br>
-                            <textarea name="profassion-profilefb" id="profassion-profilefb" placeholder="profassional-profile" rows="5"></textarea><div class="error"></div></div>
-
-                           
-                            
-                            <div class="inputcontrol">
-                                <h1>WORK EXPERIENCE</h1>
-                            <label for="workyearstart1">Year start</label><br>
-                            <input type="text" id="workyearstart1" placeholder="Year start"><div class="error"></div></div>
-                            
-                            <div class="inputcontrol">
-                            <label for="workyearend1">Year end</label><br>
-                            <input type="text" id="workyearend1" placeholder="Year end"><div class="error"></div></div>
-
-
-                            <div class="inputcontrol">
-                            <label for="work-detialfm1">Type bout your degree</label><br>
-                            <input type="text" id="work-detialfm1" placeholder="Type bout your degree"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="workexperiecefm1">Type your profassion</label><br>
-                            <textarea name="workexperiecefm1" id="workexperiecefm1" placeholder="Type your profassion" rows="5"></textarea><div class="error"></div></div>
-                            
-
-                            <div class="inputcontrol">
-                            <label for="workyearstart2">Year start</label><br>
-                            <input type="text" id="workyearstart2" placeholder="Year start"><div class="error"></div></div>
-                            
-                            <div class="inputcontrol">
-                            <label for="workyearend2">Year end</label><br>
-                            <input type="text" id="workyearend2" placeholder="Year end"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="work-detialfm2">Type bout your degree</label><br>
-                            <input type="text" id="work-detialfm2" placeholder="Type bout your degree"><div class="error"></div></div>
-
-                            <div class="inputcontrol">
-                            <label for="workexperiecefm2">Type your profassion</label><br>
-                            <textarea name="workexperiecefm2" id="workexperiecefm2" placeholder="Type your profassion" rows="5"></textarea>  <div class="error"></div></div>
-                </div>
-            </div>
-            
-            
-       
-            <button id="generate-resum" class="buttonDownload" onclick="generate()">Generate Resume</button>
+    <div id="firstpage" class="theme">
+        <div class="themehead"><div class="themelogop">
+            <img class="cvlogo" src="img/cvlogo.png" alt="">
+            <div>
+            <p>resumeceto.com</p><p class="themelogop2">by samiceto.com</p></div></div> <div>
+            <div class="manu"></div>
+            <div class="manu"></div>
+            <div class="manu"></div>
+        </div></div>
+        <div class="themhero"><h1>The Simple Resume Builder</h1><p>Build beautiful, recruiter-tested resumes in a few clicks! Our resume builder is powerful and easy to use, with a range of amazing functions. Custom-tailor resumes for any job within minutes. Increase your interview chances and rise above the Competition</p>
+            <button id="" class="find">Find Templates Bellow</button> 
+            <img class="learningimg2" src="img/learning2.jpg" alt="image cannot be uploaded"></div>
+       <div class="tempcont"> <div class="tempimgcont1"><button id="temp1" class="temp1">Use This Template</button> <img class="temp1img" src="img/temp1.jpg" alt="">
         </div>
+
+        <div class="tempimgcont2"><button id="temp2" class="temp2">Use This Template</button><img class="temp2img" src="img/temp2.jpg" alt="">
+        </div></div>
+        <div class="themeinfo">
+            <div class="info1"><img src="img/rocket.png" alt=""><h1>Powerful and easy-to-use</h1><p>Created to be suitable for all levels of job seekers. Our host of powerful features ranges from an excellent spell-checker, to job tracking, multi-format export, auto-generated summaries and more.</p></div>
+            <div class="info1"><img src="img/star.png" alt=""><h1>Customization made simple</h1><p>Fine-tune your resume for a specific job with ease. We help you turn a generic document into a cutting-edge instrument that wins interviews. Transform universal resumes into perfect sales pitches with a few key-strokes.</p></div>
+            <div class="info1"><img src="img/paper.png" alt=""><h1>Templates designed by experts</h1><p>Our designed templates and examples are reviewed by recruiters. This gives you a powerful boost in resume creation, straight from the other side of the job market - the people responsible for hiring and candidate evaluation.</p></div>
+    </div>
+        <div><img class="learningimg" src="/img/learning2.jpg" alt=""></div>
+       
+        
+    </div>
+    <div id="boxfm"></div>
+   
     
    
  
-    <!-- // tamplate -->
-    <div class="tamplate" id="tp">
-    <div class="contaner" id="pdf-resum">
-        <div class="personalifo">
-
-            <div class="img">
-                  <img class="profile" src="/img/marble.jpg" alt=""><input type="file"id="file-upload"><label for="file-upload" class="custom-file-upload">
-                  <img class="profile-edit" src="img/photo-camera.png" alt="">
-                  </label>
-                 <!-- <input id="file-upload" type="file"> -->
-            </div>
-
-
-            <div class="contact-container">
-
-            <div class="contect"><h1 id="contect" class="prsnonalheading textwhit" contenteditable="">CONTACT</h1><img class="userwhite logosize" src="img/userwhite.png" alt=""></div><hr class="textwhit">
-
-            <div class="phon flex"><img class="logosize logobg" src="img/phon.png" alt=""><p id="phont" class="textwhit" contenteditable="">+3122313716</p></div>
-            <div class="phon flex"><img class="logosize logobg" src="img/mail.png" alt=""><p id="mailt" class="textwhit" contenteditable="">samiullahmalik7474@gmial.com</p></div>
-            <div class="phon flex"><img class="logosize logobg" src="img/location.png" alt=""><p id="adresst" class="textwhit" contenteditable="">Your address</p></div>
-            <div class="phon flex"><img class="logosize logobg" src="img/website.png" alt=""><p id="websitet" class="textwhit" contenteditable="">www.come.com</p></div>
-
-            </div>
-
-
-            <div class="education">
-                <div class="ed-head"><h1 class="textwhit" contenteditable="">EDUCATION</h1><img class="logosize" src="img/education.png" alt=""></div><hr class="textwhit">
-
-                <div class="ed-body">
-                    <div id="year1t" class="year textwhit" contenteditable="">2010 <hr class="year-hr"></div>
-                    <div class="year-body"><div id="degree1t" class="degree textwhit" contenteditable="">MBA in islamic banking and finance</div><div id="degreedetai1" class="detail textwhit" contenteditable="">started in 2017 and completed in 2020 from commecs</div></div>
-                </div>
-                <hr class="textwhit">
-                <div class="ed-body">
-                    <div id="year2t" class="year textwhit" contenteditable="">2010 <hr class="year-hr"></div>
-                    <div class="year-body"><div id="degree2t" class="degree textwhit" contenteditable="">MBA in islamic banking and finance</div><div id="degreedetai2" class="detail textwhit" contenteditable="">started in 2017 and completed in 2020 from commecs</div></div>
-                </div>
-                <hr class="textwhit">
-                <div class="ed-body">
-                    <div id="year3t" class="year textwhit" contenteditable="">2010 <hr class="year-hr"></div>
-                    <div class="year-body"><div id="degree3t" class="degree textwhit" contenteditable="">MBA in islamic banking and finance</div><div id="degreedetai3" class="detail textwhit" contenteditable="">started in 2017 and completed in 2020 from commecs</div></div>
-                </div>
-                
-            </div>
-            <div class="skill-container">
-            <div class="skill-head">
-                <div class="skillheading ed-head "><h1 class="textwhit" contenteditable="">SKILLS</h1></div>
-                <div class="skill-logo"><img class="logosize logobg" src="img/skills.png" alt=""></div>
-            </div>
-            <hr class="textwhit">
-            <div class="skill-body">
-                <div class="skill-row"><div id="skil1" class="skilname textwhit" contenteditable="">photoshop</div><div class="skill-bar"></div></div>
-                <div class="skill-row"><div id="skil2" class="skilname textwhit" contenteditable="">html</div><div class="skill-bar2"></div></div>
-                <div class="skill-row"><div id="skil3" class="skilname textwhit" contenteditable="">css</div><div class="skill-bar3"></div></div>
-                <div class="skill-row"><div id="skil4" class="skilname textwhit" contenteditable="">typscript</div><div class="skill-bar4"></div></div>
-                
-            </div>
-        </div>
-            
-            
-            
-        </div>
-        <div class="profassion">
-            <div class="fix">
-            <div class="nameinfo"><div class="name"><h1 id="namet" contenteditable="">SAMIULLAH MALIK</h1><p id="t" contenteditable="">FULL STACK WEB DEVELOPER</p></div></div>
-
-
-
-            <div class="profasional-profile"><div class="profasional-heading"><h1 contenteditable="">PROFESSIONAL PROFILE</h1><img class="logosize" src="img/userblack.png" alt=""></div><hr> <p id="profassionalprofilet" contenteditable="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dignissimos accusamus deserunt praesentium aut soluta dolorem laborum nostrum dicta repellendus inventore blanditiis, dolore aliquid, necessitatibus aliquam sequi labore quis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minus dignissimos accusamus deserunt praesentium aut soluta dolorem laborum nostrum dicta repellendus inventore blanditiis, dolore aliquid, necessitatibus aliquam sequi labore quis!</p></div>
-
-
-            <div class="work-experience">
-            <div class="profasional-heading"><h1 contenteditable="" contenteditable="">WORK EXPERIENCE</h1><img class="logosize" src="img/work.png" alt=""></div><hr>
-
-            <div class="ed-body2">
-                <div id="startyear1t" class="year2" contenteditable="">2010</div> <div id="endyear1t"  class="year2" contenteditable="">2010<hr class="year-hr2"> </div>
-                <div  class="year-body"><div id="degreename1t" class="degree" contenteditable="">MBA in islamic banking and finance from commecs college and universtiy</div>
-            </div>
-            </div>
-            <p id="degreedetail1t" contenteditable="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolore cupiditate quia ducimus eum a suscipit, tenetur autem itaque minima facere! Esse velit obcaecati doloremque cupiditate totam pariatur mollitia ab.</p>
-
-
-            
-
-            <div class="ed-body2">
-                <div id="startyear2t" class="year2" contenteditable="">2010</div> <div id="endyear2t" class="year2" contenteditable="">2010<hr class="year-hr2"> </div>
-                <div class="year-body"><div id="degreename2t" class="degree" contenteditable="">MBA in islamic banking and finance from commecs college and universtiy</div>
-            </div>
-            </div>
-            <p id="degreedetail2t" contenteditable="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolore cupiditate quia ducimus eum a suscipit, tenetur autem itaque minima facere! Esse velit obcaecati doloremque cupiditate totam pariatur mollitia ab.</p>
-        </div>
-        </div>
-
-
-
-        
+    
+    <div class="page" id="tp">
+        <div id="invsible" class=" invisible1 invsible">
     </div>
+    <div id="submitdiv" class="dispnone resumereadycont"><h1 class="resumeready">Your Resume is Ready Click the Download Button Bellow to Download it!</h1>
+    <div class="downloaddiv"><button id="submit2" class="buttonDownload" onclick="html2pdf()">Download</button><br>
+    <button type="button" id="contback1" class="back">Back</button></div>
 </div>
- <button id="submit2" class="buttonDownload" onclick="CreatePDFfromHTML()">Download</button>
+
 </div>
-   <!-- </div> -->
+<div class="themefooter"><h1>Contect us on Social Media</h1>
+    <div class="socialthem">
+<a href="https://www.linkedin.com/in/samiullah-malik-1549092b1/"><img class="linkthem" src="img/linkedin.png" alt=""></a>
+<a href="https://web.facebook.com/profile.php?id=100010029812399"><img class="facethem" src="img/facebook.png" alt=""></a></div>
+<hr class="themehr">
+<p class="copyrighttheme">Governer Sindh IT Program</p>
+</div>
+   </div>
    
    
 
 
     <script src="index.js"></script>
+    <script src="temp2.js"></script>
     
 </body>
 </html>
