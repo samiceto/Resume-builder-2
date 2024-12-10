@@ -1,40 +1,5 @@
-/* @media only screen and (max-width: 1000px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    .phon{
-        width: 20px;
-    }
-    
-      
-    .boxfm{
-        margin: 0px;
-        padding: 0;
-        background: #000000ef;
-        width: 100vw;
-        
-    }
-    .containerfm{
 
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-
-
-    }
-    .leftfm{
-        margin: 0;
-        padding: 0;
-    }
-    body{
-        flex-direction: column;
-    }
- 
-  } */
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 768px) {
     
     :root {
         --main-color:rgb(244, 216, 2);
