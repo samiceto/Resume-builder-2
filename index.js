@@ -915,7 +915,7 @@ let yearrr="";
                 <hr class="textwhit opacity">
 
                 <div  class="ed-body">
-                   <div id="year1t" class="year textwhit" >${yearrr}</div><hr class="year-hr">
+                   <div id="year1t" class="year" >${yearrr}</div><hr class="year-hr">
                 <div class="year-body"><div id="degree1t" class="degree textwhit" >${degree1.value}</div><div id="degreedetai1" class="detail textwhit italic" >${degreedetail1.value}</div><div id="gpa" class="detail textwhit" >${gpa2.value}</div></div>
                 </div>
                 <hr class="textwhit opacity"> `
@@ -978,7 +978,7 @@ con4=true}
                 <hr class="textwhit opacity">
 
                 <div  class="ed-body">
-                   <div id="year1t" class="year textwhit" >${yearrr}</div><hr class="year-hr">
+                   <div id="year1t" class="year" >${yearrr}</div><hr class="year-hr">
                 <div class="year-body"><div id="degree1t" class="degree textwhit" >${degree1.value}</div><div id="degreedetai1" class="detail textwhit italic" >${degreedetail1.value}</div><div id="gpa" class="detail textwhit" >${gpa2.value}</div></div>
                 </div>
                 <hr class="textwhit opacity">  `
