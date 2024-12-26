@@ -992,7 +992,7 @@ let allvalid=true;
         let gpa = gpas[index].value.trim();
 
         let edyear = document.createElement('div');
-        edyear.classList.add('year', 'textwhit');
+        edyear.classList.add('year');
         edyear.textContent = year;
 
         let eddegree = document.createElement('div');
