@@ -56,7 +56,7 @@ html{
   }
 .flex{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: start;
     margin: 5px 0px;
     align-items: center;
